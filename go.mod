@@ -1,6 +1,6 @@
 module github.com/actions/actions-runner-controller
 
-go 1.20
+go 1.24.0
 
 require (
 	github.com/bradleyfalzon/ghinstallation/v2 v2.1.0
@@ -8,7 +8,7 @@ require (
 	github.com/evanphx/json-patch v4.12.0+incompatible
 	github.com/go-logr/logr v1.2.4
 	github.com/golang-jwt/jwt/v4 v4.5.0
-	github.com/google/go-cmp v0.5.9
+	github.com/google/go-cmp v0.6.0
 	github.com/google/go-github/v52 v52.0.0
 	github.com/google/uuid v1.3.0
 	github.com/gorilla/mux v1.8.0
@@ -25,9 +25,9 @@ require (
 	github.com/teambition/rrule-go v1.8.2
 	go.uber.org/multierr v1.10.0
 	go.uber.org/zap v1.24.0
-	golang.org/x/net v0.12.0
+	golang.org/x/net v0.47.0
 	golang.org/x/oauth2 v0.7.0
-	golang.org/x/sync v0.2.0
+	golang.org/x/sync v0.18.0
 	gomodules.xyz/jsonpatch/v2 v2.2.0
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.26.2
@@ -91,12 +91,12 @@ require (
 	github.com/stretchr/objx v0.5.0 // indirect
 	github.com/urfave/cli v1.22.2 // indirect
 	go.uber.org/atomic v1.7.0 // indirect
-	golang.org/x/crypto v0.11.0 // indirect
-	golang.org/x/sys v0.10.0 // indirect
-	golang.org/x/term v0.10.0 // indirect
-	golang.org/x/text v0.11.0 // indirect
+	golang.org/x/crypto v0.45.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
+	golang.org/x/term v0.37.0 // indirect
+	golang.org/x/text v0.31.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
-	golang.org/x/tools v0.9.3 // indirect
+	golang.org/x/tools v0.38.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.30.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
